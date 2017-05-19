@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "concurrently": "^2.0.0",
-    "lite-server": "4.6.1",
+    "lite-server": "2.3.0",
     "typescript": "2.3.2"
   }
 }
