@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
      "preinstall": "npm i typings -g",
-    "start": "concurrent \"npm run tsc:w\" \"npm run lite -c bs-config.json\" ",    
+    "start": "concurrent \"npm run tsc:w\" \"npm run lite \" ",    
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "lite": "lite-server",
@@ -21,7 +21,7 @@
     "zone.js": "0.5.15"
   },
   "devDependencies": {
-    "concurrently": "^2.0.0",
+    "concurrently": "^3.4.0",
     "lite-server": "^2.3.0",
     "typescript": "2.3.2"
   }
