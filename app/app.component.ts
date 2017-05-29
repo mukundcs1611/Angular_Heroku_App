@@ -5,7 +5,7 @@ import {SummaryPipe} from './summary.pipe';
 import {ZippyComponent} from './zippy.component';
 import {ZipContentService} from './zipcontent.service';
 import {SubscribeFormComponent} from './subscribe-form.component';
-
+import {ChangePasswordFormComponent} from './change-password-form.component';
 @Component({
     selector: 'my-app',
     template: `
@@ -28,14 +28,17 @@ import {SubscribeFormComponent} from './subscribe-form.component';
                 {{content.content}}
             </zippy>
         </div>
-        </div>
+        
         <div class="form-elem">
         <subscribe></subscribe>
         </div>
-        
+        </div>
+        <div class="form-elem">
+        <change-password-form></change-password-form>
+        </div>
         
     `,
-    directives: [TweetComponent,ZippyComponent,SubscribeFormComponent],
+    directives: [TweetComponent,ZippyComponent,SubscribeFormComponent,ChangePasswordFormComponent],
     providers: [TweetService,ZipContentService],
     pipes:[SummaryPipe]
 })
