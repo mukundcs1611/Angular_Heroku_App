@@ -23,7 +23,9 @@ Detail Entry:
 For Setting up the project locally  ,
 1.have node js & visual studio code installed.
 2. Clone or download the project .(button on right)
-[!image]https://raw.githubusercontent.com/ivmech/ivPID/master/docs/images/pid_control.png
+
+![alt pid](https://raw.githubusercontent.com/ivmech/ivPID/master/docs/images/pid_control.png)
+
 To Run ,
 1. Open CMD , navigate to project .
 2. enter : npm install (return)
